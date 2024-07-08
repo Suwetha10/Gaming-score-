@@ -1,0 +1,41 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: black;
+    background-image: url("gaming.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(221, 227, 235, 0.902);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-section, .game-section {
+    margin-top: 20px;
+    color: blac;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: white;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p {
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMING SCORE AVERAGE CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GAMING SCORE AVERAGE CALCULATOR</h1>
+        
+        <div class="input-section">
+            <label for="game-type">Select Game:</label>
+            <select id="game-type">
+                <option value="football">Football</option>
+                <option value="cricket">Cricket</option>
+            </select>
+            <input type="number" id="game-score" placeholder="Enter score">
+            <button onclick="addScore()">Add Score</button>
+        </div>
+
+        <div class="game-section">
+            <h2>Football Scores</h2>
+            <ul id="football-scores-list"></ul>
+            <button onclick="calculateAverage('football')">Calculate Average</button>
+            <p id="football-average"></p>
+        </div>
+
+        <div class="game-section">
+            <h2>Cricket Scores</h2>
+            <ul id="cricket-scores-list"></ul>
+            <button onclick="calculateAverage('cricket')">Calculate Average</button>
+            <p id="cricket-average"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
